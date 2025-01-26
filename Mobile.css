@@ -2,77 +2,95 @@
     
 
     section>div>div.social-icon>a>i{    
-        font-size: clamp(15px, 1vw, 1vw) !important;
+        font-size: clamp(15px, 6svw, 40px) !important;
+        margin-right: 1vw;
     }
     
     section>div>h1 {
-        font-size: clamp(10px, 1vw,1vw);
+        margin-top: 5vh;
+        font-size: clamp(10px, 8vw,40px);
         line-height: normal;
     }
     
     section>div>h2 {
-        font-size: cLamp(12px, .51vw, .51vw);
+        
+        font-size: cLamp(12px, 8vw,40px);
     
     }
     
     section>div>h1:nth-child(2) {
-        font-size: cLamp(20px, 2vw, 2vw);
-    
+        font-size: cLamp(20px, 12vw, 70px);
+        margin-top: 1vh;
     
     }
     
     section>div>p {
         padding-right: clamp(0px, 2vw, 30px);
-        margin-top: 2vh;
-        font-size: clamp(6px, 1.2vw, 1.2vw);
+        margin: 2vh 0;
+        font-size: clamp(6px, 4vw, 20px);
+        text-align: justify;
     }
     
-    section>div>div {
-        margin-top: 1.7vh;
-    }
+  
     
     section>div>div>.Orange-button {
         margin-right: 1vw;
-        font-size: cLamp(6px, .51vw, .5vw)!important;
+        font-size: cLamp(6px, 14vw, 20px)!important;
         padding: 1vh 1vw;
     }
     
     section>div>div>a {
     
-        font-size: cLamp(8px, 1.5vw, 1.5vw);
+        font-size: cLamp(8px, 5vw, 25px);
     }
 
     header>h1 {
         font-size: clamp(25px, 2.5vw, 2.5vw);
     }
     header>div>img{
-        height:clamp(15px ,7vh,7vh) !important;
+        height:clamp(15px ,4vh,4vh) !important;
         width: fit-content !important;
     }
     header>div>span{
         font-size: clamp(20px,3vw,3vw);
     }
 
-    nav>a {
-        font-size: clamp(10px, 1.3vw, 1.3vw);
-    }
+
+
     header>nav {
-        display: flex;
-        align-items: center;
+      display: none;
     }
     header>div>button>p {
         font-size: clamp(15px, 1vw, 1vw) !important;
-        padding: 1.3vh 1.3vw;
+        padding: .5vh 2vw;
        
+    }
+    .section-Image{
+        max-width: 95vw;
     }
     .image img{
         display: none;
     }
     .controller{
-        width: 400px;
+        width: 90%;
+        margin: auto;
+        padding: 5vh 2vw;
+    }
+    .buttons {
+    margin: 1.5vh 0;
+    display: flex;
+    
+ 
+
+    }
+    .buttons button {   
+        padding: 0vh 1.5vw;
+        margin: 0 1.3vw;
+        background-color: transparent;
+        font-size: clamp(15px, 4vw, 20px) !important;
     }
     .about {
-        width: 100vw;
+        /* width: 100vw; */
        /* position: relati
        ve; */
        /* right: 200px; */
@@ -80,18 +98,28 @@
         /* background-color: red; */
         
     }
+    .about>h1{
+        text-align: center;
+        font-size: clamp(25px,10vw,10vw);
+        margin-bottom: 1.5vh;
+    }
     .about p{
         /* border: 5px solid yellow; */
-        width: 90vw;
+        /* width: 90vw; */
+        text-align: justify;
+        font-size: clamp(14px,1.2vw,1.2vw);
     }
     #skills{
-        position: relative;
-        right: 30px;
+        /* position: relative; */
+        /* right: 30px; */
         /* bottom: px; */
+    
     }
     .upper{
         gap: 20px;
     }
     
-    
+    .image img{
+        display: none;
+    }
     }

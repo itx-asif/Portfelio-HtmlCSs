@@ -31,14 +31,18 @@
 
     section>div>p {
         padding-right: clamp(0px, 2vw, 30px);
-        margin-top: 2vh;
-        font-size: clamp(8px, 1.2vw, 1.2vw);
+        margin: 2vh 0;
+        font-size: clamp(8px, 1.5vw, 1.5vw);
     }
 
     section>div>div {
         margin-top: 1.7vh;
     }
 
+    section>div>img{
+        object-fit: contain;
+        height: 30vw;
+    }
     section>div>div>button {
         margin-right: 1vw;
         font-size: cLamp(12px, 1.3vw, 1.3vw)!important;
@@ -71,5 +75,85 @@
         font-size: clamp(15px, 1vw, 1vw) !important;
         padding: 1.3vh 1.3vw;
        
+    }
+
+    .controller{
+        display: flex;
+        border: 1px solid grey;
+        justify-content: space-between;
+        margin: 0px 5vw;
+        padding: 5vh 10px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 20px -4px rgba(0, 0, 0, 0.308);
+        border: 0px;
+        margin-bottom: 200px;
+    }
+    
+    .about{
+        /* border: 5px solid yellow; */
+        width: 50vw;
+        padding: 0 2vw;
+        /* height: 80vh; */
+    }
+    .about h1{
+        
+        font-weight: bold;
+        font-size: clamp(20px ,3vw,3vw);
+    }
+    .about p{
+        font-size: clamp(15px, 1.2vw,1.2vw)
+    }
+    
+    .image>img{
+        width: 30vw;
+        align-self: center;
+        justify-self: center;
+    }
+    .image{
+        height: fit-content;
+        width: fit-content;
+        /* align-self: center; */
+        justify-self: center;
+    }
+    .about p{
+      text-align: justify;
+
+    }
+    .buttons{
+        /* border: 5px solid red; */
+     
+        display: flex;
+        gap:1.2vw;
+        margin-top: 14px;
+    
+    }
+    .buttons button{
+        font-size: clamp(12px,1.5vw,3vw);
+        border-bottom:  1vh solid rgba(0, 0, 0, 0);
+    }
+
+    .buttons button:hover{
+        border-bottom:  1vh solid black;
+    }
+   
+    /* skilss section */
+    .upper{
+        /* border: 5px solid cyan; */
+        display: flex;
+        margin: 0px 10px;
+       width: 35vw;
+       
+        justify-content:space-between;
+    }
+    .sp{
+        /* border: 5px solid red; */
+        border-radius: 5px;
+        width: 0vw;
+        margin-left: 12px;
+        animation: colorch 4s linear infinite  normal;
+    }
+ 
+    .upper h2{
+        margin-top: 20px;
     }
 }

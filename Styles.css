@@ -53,11 +53,12 @@ section>div>div>a{
     margin: 0;
     padding: 0;
     transition:  all 200ms;
-    /* font-family: "Poppins", serif;  */
+  
+    font-family: "Poppins", serif;  
 }
 
     body{
-        background-color: #edf9ff;
+        background-color: #fff;
     }
     header>div:first-child{
         align-items: baseline;
@@ -69,7 +70,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:  3vh 3vw;
+    padding:  1vh 3vw;
 } 
 button{
 overflow: hidden;
@@ -124,80 +125,66 @@ html{
     scroll-behavior: smooth;
 }
 .controller{
-    display: flex;
+    /* display: flex; */
     
     border: 1px solid grey;
-    justify-content: space-between;
-    margin: 0px 10vw;
-    padding: 10vh 10px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.599);
-    
-    
+    /* justify-content: space-between; */
+    /* margin: 0px 5vw; */
+    /* padding: 5vh 10px; */
+    /* border-radius: 10px; */
+    box-shadow: 0px 10px 20px -4px rgba(0, 0, 0, 0.308);
+    border: 0px;
+    /* margin-bottom: 200px; */
 }
 
-.about{
-    /* border: 5px solid yellow; */
-    width: 50vw;
-    height: 80vh;
-}
 .about h1{
     
     font-weight: bold;
-    font-size: 2.5rem;
 }
-.about p{
-    width: 35vw;
-    /* border: 5px solid red; */
-}
-.buttons{
-    /* border: 5px solid red; */
-    margin-left: 10px;
-    display: flex;
-    gap:20px;
-    margin-top: 14px;
 
-}
 .buttons button{
+    border-bottom: 3px solid transparent ;
     border: none;
     /* border-bottom:  3px solid black; */
     cursor: pointer;
     /* background-color: red; */
-    font-size: 0.9;
+    /* font-size: 0.9; */
     font-weight: bold;
+    background-color: transparent;
+    margin-bottom: 1vh;
 }
 .buttons button:hover{
-    border-bottom:  3px solid black;
+    border-bottom:  1px solid black;
 }
-.buttons button:active{
-    border-bottom:  3px solid black;
-}
+.active{
+    border-bottom: 1vh solid red !important;
+   }
 /* skilss section */
 .upper{
     /* border: 5px solid cyan; */
-    display: flex;
-    margin: 0px 10px;
-   width: 35vw;
+    /* display: flex; */
+    /* margin: 0px 10px; */
+   /* width: 35vw; */
    
-    justify-content:space-between;
+    /* justify-content:space-between; */
 }
 .sp{
     /* border: 5px solid red; */
     border-radius: 5px;
-    width: 0vw;
-    margin-left: 12px;
+    /* width: 0vw; */
+    /* margin-left: 12px; */
     animation: colorch 4s linear infinite  normal;
 }
 .skill{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
+    /* margin-top: 20px; */
+    /* display: flex; */
+    /* flex-direction: column; */
     /* background-color: red; */
-    height: 40vh;
-    gap: 20px;
-    align-items: center;
+    /* height: 40vh;
+    gap: 20px; */
+    /* align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: center; */
 
 }
 .upper h2{
@@ -220,11 +207,11 @@ html{
 
 .section {
     
-    line-height: 35px;
-    margin-top: 20px;
-    margin: 20px;
+    /* line-height: 35px; */
+    /* margin-top: 20px; */
+ /* margin: 20px; */
     list-style: none;
-    padding: 10px;
+    /* padding: 10px; */
     /* border: 2px solid #ccc; */
     border-radius: 5px;
     background-color: #f9f9f9;
