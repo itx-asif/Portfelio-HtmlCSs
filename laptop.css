@@ -1,0 +1,75 @@
+@media screen and (min-width:768px) {
+    header>h1 {
+        font-size: clamp(25px, 2.5vw, 2.5vw);
+    }
+    header>div>img{
+        height:clamp(15px ,7vh,7vh);
+    }
+    header>div>span{
+        font-size: clamp(20px,3vw,3vw);
+    }
+
+    nav>a {
+        font-size: clamp(10px, 1.3vw, 1.3vw);
+    }
+    header>nav {
+        display: flex;
+        align-items: center;
+    }
+    header>div>button>p {
+        font-size: clamp(15px, 1.3vw, 1.3vw) !important;
+        padding: 1.3vh 1.3vw;
+       
+    }
+
+    section {
+        display: flex;
+    }
+
+    section>div {
+        width: 50%;
+    }
+ 
+    section>div>div.social-icon>a{
+        font-size: clamp(14px, 2vw, 2vw) !important;
+    }
+    
+    section>div>h1 {
+        font-size: clamp(25px, 3vw,3vw);
+        line-height: normal;
+    }
+
+    section>div>h2 {
+        font-size: cLamp(18px, 3vw, 3vw);
+
+    }
+
+    section>div>h1:nth-child(2) {
+        font-size: cLamp(45px, 6vw, 6vw);
+
+
+    }
+
+    section>div>p {
+        padding-right: clamp(0px, 2vw, 30px);
+        margin-top: 2vh;
+        font-size: clamp(8px, 1.2vw, 1.2vw);
+    }
+
+    section>div>div {
+        margin-top: 1.7vh;
+    }
+
+    section>div>div>button {
+        margin-right: 1vw;
+        font-size: cLamp(12px, 1.3vw, 1.3vw)!important;
+        padding: 1vh 1vw;
+    }
+
+    section>div>div>a {
+
+        font-size: cLamp(14px, 1.5vw, 1.5vw);
+    }
+
+
+}

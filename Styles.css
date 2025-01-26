@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition:  all 200ms;
+    font-family: "Poppins", serif; 
+}
+
+    body{
+        background-color: #edf9ff;
+    }
+
+    /* Header Styles */
+    header{
+        background-color: #edf9ff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:  3vh 3vw;
+} 
+  button{
+    overflow: hidden;
+  }
+
+nav>a{
+    margin: 0 1vw;
+    text-decoration: none;
+    font-weight: bold;  
+    color: black; 
+}
+nav>a:hover,nav>a:active{
+    color: orange;
+}
+
+/* Hero Section */
+
+
+/* Footer Section */
+footer{
+    background: #00116e;
+    padding: 20px 10px;
+}
+footer>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vh 10vw;
+}
+footer>div>h1{
+    color: white;
+    font-size: 6vw;
+}
+footer>p{
+    text-align: center;
+    color: #fff;
+}
+
+
+.Orange-button{
+    font-size: large;
+    background-color: orange;
+    border-radius: 1vw;
+    border: none;
+color: white;
+}
+.Orange-button:hover{
+
+    scale: 1.02;
+    border: none;
+    transition:  all 100ms;
+}
+button:hover>p{
+  
+    animation: slotmachine 300ms linear ;
+}
+
+@keyframes slotmachine {
+    0%{
+        transform: translate3d(0 ,0 ,0);
+    }
+    50%{
+        transform: translate3d(0, -100px, 0);
+       
+    }
+    51%{
+        transform: translate3d(0, +100px, 0);
+    opacity: 1;
+    }
+100%
+{
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+}
