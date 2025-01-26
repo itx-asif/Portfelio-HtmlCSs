@@ -1,62 +1,91 @@
+
+section>div{
+    padding: 2vh 4vw;
+}
+section>div>h2{
+    color: gray;
+}
+section>div>h1:first-child{
+    color: gray;
+}
+section>div>h1:nth-child(2){
+   
+    color:#00116e;
+    
+}
+section>div>div{
+    margin: 2vh 0vw;
+}
+section>div>div.social-icon>a{
+    margin: 0 0.7vw;
+   
+}
+section>div>div.social-icon>a:hover>svg{
+  color: orangered;
+   
+}
+section>div>div.social-icon{
+    display: flex;
+    align-items: baseline;
+}
+section>div>h1>span{
+
+    color:white;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -WEBKIT-TEXT-STROKE-WIDTH: 0.15vw;
+    
+}
+
+section>div>div>button{
+    background: orange;
+    border: none;
+    overflow: hidden;
+    border-radius: 1vw;
+
+}
+section>div>div>a{
+    color: #00116e;
+    font-weight: bold;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     transition:  all 200ms;
-    font-family: "Poppins", serif; 
+    /* font-family: "Poppins", serif;  */
 }
 
     body{
         background-color: #edf9ff;
     }
-
-    /* Header Styles */
-    header{
-        background-color: #edf9ff;
+    header>div:first-child{
+        align-items: baseline;
+        gap: 5px;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding:  3vh 3vw;
-} 
-  button{
-    overflow: hidden;
-  }
-
-nav>a{
-    margin: 0 1vw;
-    text-decoration: none;
-    font-weight: bold;  
-    color: black; 
-}
-nav>a:hover,nav>a:active{
-    color: orange;
-}
-
-/* Hero Section */
-
-
-/* Footer Section */
-footer{
-    background: #00116e;
-    padding: 20px 10px;
-}
-footer>div{
+    }
+header{
+    background-color: #edf9ff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10vh 10vw;
-}
-footer>div>h1{
-    color: white;
-    font-size: 6vw;
-}
-footer>p{
-    text-align: center;
-    color: #fff;
+    padding:  3vh 3vw;
+} 
+button{
+overflow: hidden;
 }
 
-
+nav>a{
+margin: 0 1vw;
+text-decoration: none;
+font-weight: bold;  
+color: black; 
+}
+nav>a:hover,nav>a:active{
+color: orange;
+}
 .Orange-button{
-    font-size: large;
+
     background-color: orange;
     border-radius: 1vw;
     border: none;

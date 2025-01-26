@@ -1,61 +1,70 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     
+
+    section>div>div.social-icon>a>i{    
+        font-size: clamp(15px, 1vw, 1vw) !important;
+    }
+    
+    section>div>h1 {
+        font-size: clamp(10px, 1vw,1vw);
+        line-height: normal;
+    }
+    
+    section>div>h2 {
+        font-size: cLamp(12px, .51vw, .51vw);
+    
+    }
+    
+    section>div>h1:nth-child(2) {
+        font-size: cLamp(20px, 2vw, 2vw);
+    
+    
+    }
+    
+    section>div>p {
+        padding-right: clamp(0px, 2vw, 30px);
+        margin-top: 2vh;
+        font-size: clamp(6px, 1.2vw, 1.2vw);
+    }
+    
+    section>div>div {
+        margin-top: 1.7vh;
+    }
+    
+    section>div>div>.Orange-button {
+        margin-right: 1vw;
+        font-size: cLamp(6px, .51vw, .5vw)!important;
+        padding: 1vh 1vw;
+    }
+    
+    section>div>div>a {
+    
+        font-size: cLamp(8px, 1.5vw, 1.5vw);
+    }
+
     header>h1 {
         font-size: clamp(25px, 2.5vw, 2.5vw);
     }
     header>div>img{
-        height:clamp(25px ,4vh,4vh);
+        height:clamp(15px ,7vh,7vh) !important;
+        width: fit-content !important;
     }
     header>div>span{
-        font-size: clamp(30px,3vw,3vw);
+        font-size: clamp(20px,3vw,3vw);
     }
 
-    nav {
-       display: none !important;
+    nav>a {
+        font-size: clamp(10px, 1.3vw, 1.3vw);
     }
-
-    header>button>p {
-        font-size: clamp(12px, 1vw, 1vw) !important;
+    header>nav {
+        display: flex;
+        align-items: center;
+    }
+    header>div>button>p {
+        font-size: clamp(15px, 1vw, 1vw) !important;
         padding: 1.3vh 1.3vw;
-    }
-
-
-  
-    section>div>div.social-icon>a{   
-        font-size: clamp(30px, 1vw, 1vw) !important;
+       
     }
     
-    section>div>h1 {
-        font-size: clamp(20px, 1vw,1vw);
-        line-height: normal;
+    
     }
-
-    section>div>h2 {
-        font-size: cLamp(20px, .51vw, .51vw);
-    }
-
-    section>div>h1:nth-child(2) {
-        font-size: cLamp(40px, 2vw, 2vw);
-    }
-
-    section>div>p {
-        padding-right: clamp(0px, 2vw, 30px);
-        margin-top: 2vh;
-        font-size: clamp(15px, 1.2vw, 1.2vw);
-    }
-
-    section>div>div {
-        margin-top: 1.7vh;
-    }
-
-    section>div>div>button {
-        margin-right: 1vw;
-        font-size: cLamp(12px, 1.3vw, 1.3vw)!important;
-        padding: 1vh 1vw;
-    }
-
-    section>div>div>a {
-        font-size: cLamp(14px, 1.5vw, 1.5vw);
-    }
-
-}

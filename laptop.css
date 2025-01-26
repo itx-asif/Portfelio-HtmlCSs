@@ -1,38 +1,17 @@
 @media screen and (min-width:768px) {
-    header>h1 {
-        font-size: clamp(25px, 2.5vw, 2.5vw);
-    }
-    header>div>img{
-        height:clamp(15px ,7vh,7vh);
-    }
-    header>div>span{
-        font-size: clamp(20px,3vw,3vw);
-    }
-
-    nav>a {
-        font-size: clamp(10px, 1.3vw, 1.3vw);
-    }
-    header>nav {
-        display: flex;
-        align-items: center;
-    }
-    header>div>button>p {
-        font-size: clamp(15px, 1.3vw, 1.3vw) !important;
-        padding: 1.3vh 1.3vw;
-       
-    }
-
     section {
         display: flex;
     }
 
     section>div {
         width: 50%;
+        
     }
- 
-    section>div>div.social-icon>a{
-        font-size: clamp(14px, 2vw, 2vw) !important;
+    section>div>div.social-icon>a>i{
+    
+        font-size: clamp(15px, 2vw, 2vw) !important;
     }
+   
     
     section>div>h1 {
         font-size: clamp(25px, 3vw,3vw);
@@ -69,7 +48,28 @@
     section>div>div>a {
 
         font-size: cLamp(14px, 1.5vw, 1.5vw);
+    } 
+    header>h1 {
+        font-size: clamp(25px, 2.5vw, 2.5vw);
+    }
+    header>div>img{
+        height:clamp(15px ,5vh,7vh) !important;
+        width: fit-content !important;
+    }
+    header>div>span{
+        font-size: clamp(20px,3vw,3vw);
     }
 
-
+    nav>a {
+        font-size: clamp(10px, 1.3vw, 1.3vw);
+    }
+    header>nav {
+        display: flex;
+        align-items: center;
+    }
+    header>div>button>p {
+        font-size: clamp(15px, 1vw, 1vw) !important;
+        padding: 1.3vh 1.3vw;
+       
+    }
 }
