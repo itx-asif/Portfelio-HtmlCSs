@@ -1,0 +1,33 @@
+[
+    {
+      "image": "images/designer.jpg",
+      "badge": "Designer",
+      "title": "Lorem ipsum dolor sit explicabo adipisicing elit",
+      "link": "#"
+    },
+    {
+      "image": "images/developer.jpg",
+      "badge": "Developer",
+      "title": "Lorem ipsum dolor sit explicabo adipisicing elit",
+      "link": "#"
+    },
+    {
+      "image": "images/marketer.jpg",
+      "badge": "Marketer",
+      "title": "Lorem ipsum dolor sit explicabo adipisicing elit",
+      "link": "#"
+    },
+    {
+      "image": "images/gamer.jpg",
+      "badge": "Gamer",
+      "title": "Lorem ipsum dolor sit explicabo adipisicing elit",
+      "link": "#"
+    },
+    {
+      "image": "images/editor.jpg",
+      "badge": "Editor",
+      "title": "Lorem ipsum dolor sit explicabo adipisicing elit",
+      "link": "#"
+    }
+  ]
+  
