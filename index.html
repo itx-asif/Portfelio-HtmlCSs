@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="Styles.css">
     <link rel="stylesheet" href="laptop.css">
     <link rel="stylesheet" href="Mobile.css">
+    <link rel="stylesheet" href="About.css">
+    
+
 </head>
 
 <body>
@@ -59,18 +62,68 @@
         </div>
 
     </section>
-
-
-    <!-- Footer -->
-    <footer>
-        <div>
-            <h1>Have a Project?</h1>
-            <button class="Orange-button">Lets Talk</button>
-
+    <!-- yha sa about section ha -->
+     <div class="controller">
+        <div class="image">
+            <img src="/Assets/vector.png" alt="Vector">
         </div>
-        <br>
-        <p>All rights Reserved</p>
-    </footer>
-</body>
+        <div class="about">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit est saepe, at quas magni sed ut labore facilis debitis incidunt, nostrum ab laboriosam in placeat consequuntur? Molestiae doloribus magni velit nihil facere inventore vel explicabo tempore fuga repellat temporibus suscipit eos incidunt dolorem.</p>
+            <div class="buttons">
+                <button onclick="showSection('skills')">Skills</button>
+                <button onclick="showSection('experience')">Experience</button>
+                <button onclick="showSection('education')">Education</button>
+            </div>
+    
+            <!-- Sections -->
+            <div id="skills" class="section">
+                <div class="skill">
+                    <div class="skillportion">
+                        <div class="upper">
+                            <h2>Development</h2>
+                            <h2>83%</h2>
+                        </div>
+                        <div class="sp"></div>
+                    </div>
+                    <div class="skillportion">
+                        <div class="upper" onclick="changetext(this)">
+                            <h2>Design</h2>
+                            <h2>80%</h2>
+                        </div>
+                        <div class="sp"></div>
+                    </div>
+                    <div class="skillportion">
+                        <div class="upper">
+                            <h2>Responsive</h2>
+                            <h2>78%</h2>
+                        </div>
+                        <div class="sp"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="experience" class="section hidden">
+                <h2>Work Experience</h2>
+                <p>Jidher jao nical deta haiy</p>
+                <p><b>2024-2027</b></p>
+                <p>Front-End developer</p>
+            </div>
+    
+            <div id="education" class="section hidden">
+                <h2>Education</h2>
+                    <p>Studing at nation university of modern languages</p>
+                    <p><b>2024-2027</b></p>
+                    <p>Degree software engineer</p>
 
-</html>
+                    
+                
+            </div>
+        </div>
+    </div>
+    
+      
+    </body>
+    <script src="js.js"></script>
+
+    </html>

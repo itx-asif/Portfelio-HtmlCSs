@@ -65,6 +65,33 @@
         padding: 1.3vh 1.3vw;
        
     }
+    .image img{
+        display: none;
+    }
+    .controller{
+        width: 400px;
+    }
+    .about {
+        width: 100vw;
+       /* position: relati
+       ve; */
+       /* right: 200px; */
+       margin-right: auto;
+        /* background-color: red; */
+        
+    }
+    .about p{
+        /* border: 5px solid yellow; */
+        width: 90vw;
+    }
+    #skills{
+        position: relative;
+        right: 30px;
+        /* bottom: px; */
+    }
+    .upper{
+        gap: 20px;
+    }
     
     
     }
