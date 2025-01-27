@@ -122,4 +122,32 @@
     .image img{
         display: none;
     }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        /* margin: 20px; */
+        /* width: 80vw; */
+        gap: 0px; 
+        /* border: 5px solid red; */
+        margin-top: 200px;
+    }
+
+     
+    .cd{
+        /* margin-left: auto; */
+        position: relative;
+        right: 70px;
+    }
+    .first{
+        margin-left: auto;
+     position: relative;
+     top: 200px;
+    }
+    .chatc{
+        width:auto;
+    }
+    .chatc button{
+        width: auto;
+    }
+   
     }
