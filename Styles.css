@@ -1,16 +1,104 @@
+:root {
+  --text: #040316;
+  --bg: #fbfbfe;
+  --primary: #2f27ce;
+  --secondary: #dddbff;
+  --accent: #443dff;
+  --textcontrast: #64d97b;
+  --bgcontrast: #64d97b;
+  --primarycontrast: #64d97b;
+  --secondarycontrast: #64d97b;
+  --accentcontrast: #ffdd00;
+  --text5: hsl(243, 76%, 5%, 5%);
+  --text10: hsl(243, 76%, 5%, 10%);
+  --text15: hsl(243, 76%, 5%, 15%);
+  --text20: hsl(243, 76%, 5%, 20%);
+  --text25: hsl(243, 76%, 5%, 25%);
+  --text30: hsl(243, 76%, 5%, 30%);
+  --text35: hsl(243, 76%, 5%, 35%);
+  --text40: hsl(243, 76%, 5%, 40%);
+  --text45: hsl(243, 76%, 5%, 45%);
+  --text50: hsl(243, 76%, 5%, 50%);
+  --text55: hsl(243, 76%, 5%, 55%);
+  --text60: hsl(243, 76%, 5%, 60%);
+  --text65: hsl(243, 76%, 5%, 65%);
+  --text70: hsl(243, 76%, 5%, 70%);
+  --text75: hsl(243, 76%, 5%, 75%);
+  --text80: hsl(243, 76%, 5%, 80%);
+  --text85: hsl(243, 76%, 5%, 85%);
+  --text90: hsl(243, 76%, 5%, 90%);
+  --text95: hsl(243, 76%, 5%, 95%);
+  --primary5: hsl(243, 68%, 48%, 5%);
+  --primary10: hsl(243, 68%, 48%, 10%);
+  --primary15: hsl(243, 68%, 48%, 15%);
+  --primary20: hsl(243, 68%, 48%, 20%);
+  --primary25: hsl(243, 68%, 48%, 25%);
+  --primary30: hsl(243, 68%, 48%, 30%);
+  --primary35: hsl(243, 68%, 48%, 35%);
+  --primary40: hsl(243, 68%, 48%, 40%);
+  --primary45: hsl(243, 68%, 48%, 45%);
+  --primary50: hsl(243, 68%, 48%, 50%);
+  --primary55: hsl(243, 68%, 48%, 55%);
+  --primary60: hsl(243, 68%, 48%, 60%);
+  --primary65: hsl(243, 68%, 48%, 65%);
+  --primary70: hsl(243, 68%, 48%, 70%);
+  --primary75: hsl(243, 68%, 48%, 75%);
+  --primary80: hsl(243, 68%, 48%, 80%);
+  --primary85: hsl(243, 68%, 48%, 85%);
+  --primary90: hsl(243, 68%, 48%, 90%);
+  --primary95: hsl(243, 68%, 48%, 95%);
+  --secondary5: hsl(243, 100%, 93%, 5%);
+  --secondary10: hsl(243, 100%, 93%, 10%);
+  --secondary15: hsl(243, 100%, 93%, 15%);
+  --secondary20: hsl(243, 100%, 93%, 20%);
+  --secondary25: hsl(243, 100%, 93%, 25%);
+  --secondary30: hsl(243, 100%, 93%, 30%);
+  --secondary35: hsl(243, 100%, 93%, 35%);
+  --secondary40: hsl(243, 100%, 93%, 40%);
+  --secondary45: hsl(243, 100%, 93%, 45%);
+  --secondary50: hsl(243, 100%, 93%, 50%);
+  --secondary55: hsl(243, 100%, 93%, 55%);
+  --secondary60: hsl(243, 100%, 93%, 60%);
+  --secondary65: hsl(243, 100%, 93%, 65%);
+  --secondary70: hsl(243, 100%, 93%, 70%);
+  --secondary75: hsl(243, 100%, 93%, 75%);
+  --secondary80: hsl(243, 100%, 93%, 80%);
+  --secondary85: hsl(243, 100%, 93%, 85%);
+  --secondary90: hsl(243, 100%, 93%, 90%);
+  --secondary95: hsl(243, 100%, 93%, 95%);
+  --accent5: hsl(242, 100%, 62%, 5%);
+  --accent10: hsl(242, 100%, 62%, 10%);
+  --accent15: hsl(242, 100%, 62%, 15%);
+  --accent20: hsl(242, 100%, 62%, 20%);
+  --accent25: hsl(242, 100%, 62%, 25%);
+  --accent30: hsl(242, 100%, 62%, 30%);
+  --accent35: hsl(242, 100%, 62%, 35%);
+  --accent40: hsl(242, 100%, 62%, 40%);
+  --accent45: hsl(242, 100%, 62%, 45%);
+  --accent50: hsl(242, 100%, 62%, 50%);
+  --accent55: hsl(242, 100%, 62%, 55%);
+  --accent60: hsl(242, 100%, 62%, 60%);
+  --accent65: hsl(242, 100%, 62%, 65%);
+  --accent70: hsl(242, 100%, 62%, 70%);
+  --accent75: hsl(242, 100%, 62%, 75%);
+  --accent80: hsl(242, 100%, 62%, 80%);
+  --accent85: hsl(242, 100%, 62%, 85%);
+  --accent90: hsl(242, 100%, 62%, 90%);
+  --accent95: hsl(242, 100%, 62%, 95%);
 
+}
 section>div{
     padding: 2vh 4vw;
 }
 section>div>h2{
-    color: gray;
+    color: var(--text);
 }
 section>div>h1:first-child{
-    color: gray;
+    color: var(--text);
 }
 section>div>h1:nth-child(2){
    
-    color:#00116e;
+    color:var(--primary);
     
 }
 section>div>div{
@@ -21,7 +109,7 @@ section>div>div.social-icon>a{
    
 }
 section>div>div.social-icon>a:hover>svg{
-  color: orangered;
+  color: var(--primary);
    
 }
 section>div>div.social-icon{
@@ -30,21 +118,21 @@ section>div>div.social-icon{
 }
 section>div>h1>span{
 
-    color:white;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color:transparent;
+    -webkit-text-stroke-color: var(--primary);
     -WEBKIT-TEXT-STROKE-WIDTH: 0.15vw;
     
 }
 
 section>div>div>button{
-    background: orange;
+    background: var(--primary);
     border: none;
     overflow: hidden;
     border-radius: 1vw;
 
 }
 section>div>div>a{
-    color: #00116e;
+    color:var(--primary);
     font-weight: bold;
 }
 
@@ -58,7 +146,7 @@ section>div>div>a{
 }
 
     body{
-        background-color: #fff;
+        background-color: var(--bg);
     }
     header>div:first-child{
         align-items: baseline;
@@ -66,7 +154,7 @@ section>div>div>a{
         display: flex;
     }
 header{
-    background-color: #edf9ff;
+    background-color:var(--primary5);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,14 +171,14 @@ font-weight: bold;
 color: black; 
 }
 nav>a:hover,nav>a:active{
-color: orange;
+color: var(--primary);
 }
 .Orange-button{
 
-    background-color: orange;
+    background-color: var(--primary);
     border-radius: 1vw;
     border: none;
-color: white;
+color: var(--secondary);
 }
 .Orange-button:hover{
 
@@ -127,7 +215,7 @@ html{
 .controller{
     /* display: flex; */
     
-    border: 1px solid grey;
+    border: 1px solid var(--accent);
     /* justify-content: space-between; */
     /* margin: 0px 5vw; */
     /* padding: 5vh 10px; */
@@ -152,53 +240,34 @@ html{
     /* font-size: 0.9; */
     font-weight: bold;
     background-color: transparent;
-    margin-bottom: 1vh;
+    margin-bottom: .5vh;
 }
 .buttons button:hover{
-    border-bottom:  1px solid black;
+    border-bottom:  1px solid var(--primary);
 }
 .active{
-    border-bottom: 1vh solid red !important;
+    border-bottom: .5vh solid var(--accent) !important;
    }
 /* skilss section */
-.upper{
-    /* border: 5px solid cyan; */
-    /* display: flex; */
-    /* margin: 0px 10px; */
-   /* width: 35vw; */
-   
-    /* justify-content:space-between; */
-}
+
 .sp{
-    /* border: 5px solid red; */
+
     border-radius: 5px;
-    /* width: 0vw; */
-    /* margin-left: 12px; */
+
     animation: colorch 4s linear infinite  normal;
 }
-.skill{
-    /* margin-top: 20px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* background-color: red; */
-    /* height: 40vh;
-    gap: 20px; */
-    /* align-items: center;
-    align-content: center;
-    justify-content: center; */
 
-}
 .upper h2{
     margin-top: 20px;
 }
 @keyframes colorch{
     0%{
-        width: 10vw;
-        border: 5px solid red;
+        width: 0vw;
+        border: 5px solid var(--accent);
     }
-    50%{
-        width: 30vw;
-        border: 5px solid green;
+    100%{
+        width: 90%;
+        border: 5px solid var(--accent);
     }
 }
 /* Hide and show sections */
@@ -212,17 +281,20 @@ html{
     /* margin-top: 20px; */
  /* margin: 20px; */
     list-style: none;
-    /* padding: 10px; */
-    /* border: 2px solid #ccc; */
+
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: var(--secondary40);
 }
 /* project slider
  */
-
+.project{
+  /* width: 90%; */
+  margin: auto;
+}
 
 .card-wrapper {
   margin: 0 60px 35px;
+  padding: 0 30px;
   /* padding: 2vh 5vw; */
   overflow: hidden;
 }
@@ -231,7 +303,7 @@ html{
 }
 .card-list .card-item .card-link {
   display: block;
-  background: #fff;
+  background:var(--primary5);
   padding: 18px;
   user-select: none;
   border-radius: 12px;
@@ -244,7 +316,7 @@ html{
   cursor: grabbing;
 }
 .card-list .card-item .card-link:hover {
-  border-color: #5372F0;
+  border-color: var(--primary);
 }
 .card-list .card-link .card-image {
   width: 100%;
@@ -286,30 +358,30 @@ html{
 .card-list .card-link .card-button {
   height: 35px;
   width: 35px;
-  color: #5372F0;
+  color: var(--text);
   margin: 30px 0 5px;
   background: none;
   cursor: pointer;
   border-radius: 50%;
-  border: 2px solid #5372F0;
+  border: 2px solid var(--primary);
   transform: rotate(-45deg);
   transition: 0.4s ease;
 }
 .card-list .card-link:hover .card-button {
-  color: #fff;
-  background: #5372F0;
+  color:var(--bg);
+  background-color: var(--primary);
 }
 .card-wrapper .swiper-pagination-bullet {
   height: 13px;
   width: 13px;
   opacity: 0.5;
-  background: #5372F0;
+  background-color: #443dff;
 }
 .card-wrapper .swiper-pagination-bullet-active {
   opacity: 1;
 }
 .card-wrapper .swiper-slide-button {
-  color: #5372F0;
+  color: var(--primary);
   margin-top: -35px;
 }
 /* Responsive media query code for small screens */
@@ -321,8 +393,7 @@ html{
     display: none;
   }
 }
-/* chat css
- */
+
 .chat{
   /* border: 5px solid red; */
   display: flex;
@@ -409,3 +480,4 @@ li {
 
   font-family: cursive;
 }
+

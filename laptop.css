@@ -79,7 +79,6 @@
 
     .controller{
         display: flex;
-        border: 1px solid grey;
         justify-content: space-between;
         margin: 0px 5vw;
         padding: 5vh 10px;
@@ -129,11 +128,11 @@
     }
     .buttons button{
         font-size: clamp(12px,1.5vw,3vw);
-        border-bottom:  1vh solid rgba(0, 0, 0, 0);
+        border-bottom:  0.5vh solid transparent;
     }
 
     .buttons button:hover{
-        border-bottom:  1vh solid black;
+        border-bottom: 0.5vh solid var(--primary);
     }
    
     /* skilss section */
