@@ -85,9 +85,11 @@
         border-radius: 10px;
         box-shadow: 0px 10px 20px -4px rgba(0, 0, 0, 0.308);
         border: 0px;
-        margin-bottom: 200px;
-    }
     
+    }
+    .project{
+        padding: 12vh 0 ;
+    }
     .about{
         /* border: 5px solid yellow; */
         width: 50vw;
@@ -155,4 +157,92 @@
     .upper h2{
         margin-top: 20px;
     }
+    .card-wrapper {
+        margin: 0 3vw 3vh !important;
+        padding: 0 30px;
+        /* padding: 2vh 5vw; */
+        overflow: hidden;
+      }
+
+    .project>div>h1{
+        font-size: clamp(20px ,5vw,5vw);
+    }
+    
+
+  .card-list .card-item .card-link {
+    padding: 1vw;
+    border-radius: 1vw;
+
+  }
+
+
+  .card-list .card-link .card-image {
+    border-radius: 1v;
+  }
+  .card-list .card-link .badge {
+ 
+
+    padding: 1vh 2vw;
+    font-size: clamp(10px,1vw,1vw);
+
+    font-weight: 500;
+  
+    margin: 1vh 0 1.2vh;
+  }
+ 
+.card-list .card-link .card-title {
+    color: var(--text);
+    font-size:clamp(15px,1.5vw,2vw );
+
+  }
+
+  .card-list .card-link .card-button {
+
+width: 2vw;
+height: 2vw;
+font-size: clamp(10px,1.5vw,2vw);
+  }
+
+  .card-wrapper .swiper-pagination-bullet {
+    height: 1vw;
+    width: 1vw;
+    
+ 
+  }
+  .swiper-button-next:after,.swiper-button-prev:after{
+    font-size: clamp(20px,3vw,3vw);
+  }
+  .card-wrapper .swiper-slide-button {
+    color: var(--primary);
+    margin-top:     35px;
+  }
+    .chatc{
+        width: 50vw;
+        padding: 10vh 0;;
+    }
+    .chatc>h1{
+        font-size: clamp(20px ,5vw,5vw);
+        margin-bottom: 2vh;
+    }
+.chatc>p{
+    font-size: clamp(20px ,1.5vw,1.5vw);
+    text-align: justify;
+    margin-bottom: 2vh;
+}
+.chatc>button>a{
+    font-size: clamp(20px ,1.5vw,1.5vw);
+}
+footer>div>div.cd>h3{
+    font-size: clamp(10px,2vw,2vw);
+}
+footer>div>div.cd>ul>li>a{
+    font-size: clamp(10px,1.2vw,1.2vw);
+  
+}
+footer>div>div.cd>ul>li{
+    margin: 2vh 0;
+}
+.foot{
+    padding: 5vh 0;
+}
 }
