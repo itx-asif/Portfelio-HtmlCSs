@@ -439,8 +439,7 @@ footer{
   /* border: 5px solid red; */
   display: flex;
   justify-content: space-around;
-    gap: 100px;
-  
+    
 }
 
  .foot a{
@@ -451,9 +450,7 @@ footer{
   list-style: none;
 }
 
-.cd {
-  width: 20%;
-}
+
 
 .chatc button:hover{
   

@@ -2,7 +2,7 @@
     
 
     section>div>div.social-icon>a>i{    
-        font-size: clamp(15px, 6svw, 40px) !important;
+        font-size: clamp(15px, 6vw, 40px) !important;
         margin-right: 1vw;
     }
     
@@ -16,6 +16,9 @@
         
         font-size: cLamp(12px, 8vw,40px);
     
+    }
+    footer>div>div.cd>ul>li{
+        margin: 2vh 0;
     }
     
     section>div>h1:nth-child(2) {
@@ -55,8 +58,9 @@
         font-size: clamp(20px,3vw,3vw);
     }
 
-
-
+    .foot{
+       padding: 2vh 2vw;
+      }
     header>nav {
       display: none;
     }
@@ -80,8 +84,6 @@
     margin: 1.5vh 0;
     display: flex;
     
- 
-
     }
     .buttons button {   
         padding: 0vh 1.5vw;
@@ -125,24 +127,9 @@
     .foot{
         display: flex;
         flex-direction: column;
-        /* margin: 20px; */
-        /* width: 80vw; */
-        gap: 0px; 
-        /* border: 5px solid red; */
-        margin-top: 200px;
+  
     }
 
-     
-    .cd{
-        /* margin-left: auto; */
-        position: relative;
-        right: 70px;
-    }
-    .first{
-        margin-left: auto;
-     position: relative;
-     top: 200px;
-    }
     .chatc{
         width:auto;
     }
