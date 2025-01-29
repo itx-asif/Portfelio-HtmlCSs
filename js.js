@@ -12,3 +12,18 @@ function showSection(evt,sectionId) {
     })
     evt.currentTarget.className += " active";
 }
+// Get the side nav and hamburger icon
+// Get the side nav, hamburger, and close button
+const sidenav = document.getElementById('sidenav');
+const hamburger = document.getElementById('hamburger');
+const closebtn = document.getElementById('closebtn');
+
+// Toggle the sidenav on/off when clicking the hamburger icon
+hamburger.addEventListener('click', () => {
+    sidenav.style.width = '250px';
+});
+
+// Close the sidenav when clicking the close button
+closebtn.addEventListener('click', () => {
+    sidenav.style.width = '0';
+});

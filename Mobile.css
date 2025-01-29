@@ -33,8 +33,50 @@
         font-size: clamp(6px, 4vw, 20px);
         text-align: justify;
     }
+    .closebtn {
+   
+        font-size: 36px;
+        color: var(--bg);
+        cursor: pointer;
+    }
     
-  
+    /* Style the "Menu" text */
+    .menu-text {
+        font-size: 32px;
+        color: var(--bg);
+    
+    }
+    .sidenav>div{
+        display: flex;
+        justify-content: space-between;
+padding: 0 1vw 2vh 1vw;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: var(--primary);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: var(--bg);
+    
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+        color: var(--text);
+    }
     
     section>div>div>.Orange-button {
         margin-right: 1vw;
@@ -46,10 +88,18 @@
     
         font-size: cLamp(8px, 5vw, 25px);
     }
-
-    header>h1 {
-        font-size: clamp(25px, 2.5vw, 2.5vw);
+    .mobile-flex{
+        display: flex;
+        align-items: center;
+        gap: 1vw;
     }
+    #hamburger{
+        color: var(--primary);
+        font-size: clamp(20px,9vw,35px);
+    }
+    .section hr{
+    border: 1px solid;
+}
     header>div>img{
         height:clamp(15px ,4vh,4vh) !important;
         width: fit-content !important;
@@ -59,7 +109,7 @@
     }
 
     .foot{
-       padding: 2vh 2vw;
+       padding: 2vh 5vw;
       }
     header>nav {
       display: none;
@@ -100,41 +150,75 @@
         /* background-color: red; */
         
     }
+    .upper{
+        display: flex;
+        justify-content: space-between;
+    }
     .about>h1{
         text-align: center;
         font-size: clamp(25px,10vw,10vw);
         margin-bottom: 1.5vh;
     }
+    .section h2{
+        font-size: clamp(12px,4vw,20px);
+
+    }
     .about p{
-        /* border: 5px solid yellow; */
-        /* width: 90vw; */
+    
         text-align: justify;
         font-size: clamp(14px,1.2vw,1.2vw);
     }
-    #skills{
-        /* position: relative; */
-        /* right: 30px; */
-        /* bottom: px; */
-    
-    }
+
     .upper{
         gap: 20px;
     }
-    
+
+    .p-2vh{
+        padding-bottom: 4vh;
+    }
+    .p-2vh:last-child{
+        padding-bottom: 0vh;
+    }
+    .circle{
+        width: 2vw;
+        height: 2vw;
+        right: 2.25vw !important;
+    }
+   
+    .section{
+        padding: 3vh 2vw;
+    }
+    .portion{
+        padding: 1vh ;
+        margin-top: -4vh;
+        padding-bottom: 0;
+     }
     .image img{
         display: none;
     }
     .foot{
         display: flex;
         flex-direction: column;
-  
+  padding: 2vw;
     }
-
+    .chat{
+        padding: 10vh 5vw;
+    }
     .chatc{
         width:auto;
     }
-    .chatc button{
-        width: auto;
+    .chatc>p{
+        text-align: justify;
     }
-   
+    .cd{
+        padding: 2vh 3vw;
+    }
+    .chatc button{
+        padding: 2vh 2vw;
+    }
+   .foot>hr{
+    height: 2px;
+    width: 100%;
+    margin: auto;
+background-color: var(--bg);   }
     }

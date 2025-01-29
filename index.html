@@ -34,9 +34,22 @@
         <a href="/">Skills</a>
        
     </nav>
-    <div>
+    <div class="sidenav" id="sidenav">
+        <div>
+            <h2 class="menu-text">Menu</h2>
+            <span class="closebtn" id="closebtn">&times;</span> <!-- Close button -->
+          
+        </div>
+        <a href="/">Home</a>
+        <a href="/">About</a>
+        <a href="/">Project</a>
+        <a href="/">Skills</a>
+    </div>
+    <div class="mobile-flex">
         <button class="Orange-button"><p>Hire Me </p></button>
-        
+        <span class="hamburger" id="hamburger">
+            &#9776;
+        </span>
     </div>
 </header >
     <!--  Hero Section -->
@@ -77,51 +90,103 @@
                 <button class="tabs" onclick="showSection(event,'experience')">Experience</button>
                 <button class="tabs" onclick="showSection(event,'education')">Education</button>
             </div>
-    
+        
             <!-- Sections -->
             <div id="skills" class="section">
+                <hr>
                 <div class="skill">
-                    <div class="skillportion">
-                        <div class="upper">
-                            <h2>Development</h2>
-                            <h2>83%</h2>
+                    <div class="p-2vh">
+
+                        <div class="circle"></div>
+                        <div class="portion">
+                            <div class="upper">
+                                <h2>Development</h2>
+                                <h2>83%</h2>
+                            </div>
+                            <div class="sp"></div>
                         </div>
-                        <div class="sp"></div>
                     </div>
-                    <div class="skillportion">
-                        <div class="upper" onclick="changetext(this)">
-                            <h2>Design</h2>
-                            <h2>80%</h2>
+                    <div class="p-2vh">
+                        <div class="circle"></div>
+                        <div class="portion">
+                            <div class="upper" onclick="changetext(this)">
+                                <h2>Design</h2>
+                                <h2>80%</h2>
+                            </div>
+                            <div class="sp"></div>
                         </div>
-                        <div class="sp"></div>
                     </div>
-                    <div class="skillportion">
+                   <div class="p-2vh">
+                    <div class="circle"></div>
+                    <div class="portion">
                         <div class="upper">
                             <h2>Responsive</h2>
                             <h2>78%</h2>
                         </div>
                         <div class="sp"></div>
                     </div>
+                   </div>
+                   
                 </div>
             </div>
     
             <div id="experience" class="section hidden">
-                <h2>Work Experience</h2>
-                <p>Jidher jao nical deta haiy</p>
-                <p><b>2024-2027</b></p>
-                <p>Front-End developer</p>
-            </div>
+               <hr>
+                <div>
+                    <div class="p-2vh">
+                        <div class="circle"></div>
+                        <div class="portion">
+                          
+                            <div class="space-between">   
+                                
+                                
+                                <h2>Company name</h2>
+                                <p><b>2024-2027</b></p>
+                            </div>    
+                            <p><b>Role: </b>Front-End developer</p>
+                            <p><b>Discription: </b>Jidher jao nical deta haiy</p>
+                        </div>
+                    </div>
+               
+                <div class="p-2vh">
+                    <div class="circle"></div>
+                    <div class="portion">
+                       
+                        <div class="space-between">   
+                            
+                            <h2>Company name</h2>
+                            <p><b>2024-2027</b></p>
+                        </div>    
+                        <p><b>Role: </b>Front-End developer</p>
+                        <p><b>Discription: </b>Jidher jao nical deta haiy</p>
+                    </div>
+                </div>
+               
+               </div>
+                </div>
+                
+            
     
             <div id="education" class="section hidden">
-                <h2>Education</h2>
-                    <p>Studing at nation university of modern languages</p>
-                    <p><b>2024-2027</b></p>
-                    <p>Degree software engineer</p>
-
+                <hr>
+                <div>
+                    <div class="circle"></div>
+                    <div class="portion">
+                        <div class="space-between">   
+                            
+                            
+                            <h2>Degree</h2>
+                            <p><b>2024-2027</b></p>
+                        </div>    
+                        <p><b>University:</b>NUML</p>
+                        
+                    </div>
                     
-                
+                </div>
             </div>
         </div>
+    </div>
+       
     </div>
     <div class="project">
 
@@ -166,6 +231,7 @@
                         <li><a href="#">03231538572</a></li>
                     </ul>
                 </div>
+                <hr>
                 <div class="cd">
                     <h3 style="color : var(--bg);">Quick Links</h1>
                     <ul>
@@ -175,6 +241,7 @@
                         <li><a href="#">Skills</a></li>
                     </ul>
                 </div>
+                <hr>
                 <div class="cd">
                     <h3 style="color : var(--bg);">Social Media</h1>
                     <ul>
@@ -184,7 +251,7 @@
                         <li><a href="#">Instagram</a></li>
                     </ul>
                 </div>
-                
+             
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

@@ -256,13 +256,10 @@ html{
 .sp{
 
     border-radius: 5px;
-
     animation: colorch 4s linear infinite  normal;
 }
 
-.upper h2{
-    margin-top: 20px;
-}
+
 @keyframes colorch{
     0%{
         width: 0vw;
@@ -275,18 +272,32 @@ html{
 }
 /* Hide and show sections */
 .hidden {
-    display: none;
+    display: none !important;
 }
+.section>div{
+  width: -webkit-fill-available;
 
+}
+.circle{
+  border-radius: 50%;
+  background: #040316;
+  width:1vw;
+  height: 1vw;
+  position: relative;
+  right: 1.6vw;
+}
 .section {
-    
-    /* line-height: 35px; */
-    /* margin-top: 20px; */
- /* margin: 20px; */
+
     list-style: none;
+display: flex;
+gap: 1vw;
 
     border-radius: 5px;
     background-color: var(--secondary40);
+}
+.space-between{
+  justify-content: space-between;
+  display: flex;
 }
 /* project slider
  */
@@ -421,13 +432,13 @@ html{
     text-decoration: none;
 }
 .chatc button{
-  width: 15vw;
+
   background-color: var(--accent);
-  height: 5vh;
+
   border-radius: 14px;
   margin-top: 20px;
   border: none;
-  /* transition:all 100ms; */
+ 
 }
 footer{
   background-color: var(--text);
@@ -435,8 +446,7 @@ footer{
 }
 
 .foot{
-  width:100%;
-  /* border: 5px solid red; */
+
   display: flex;
   justify-content: space-around;
     
