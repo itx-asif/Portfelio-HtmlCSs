@@ -190,6 +190,7 @@
 }
     .project>div>h1{
         font-size: clamp(20px ,5vw,5vw);
+        margin-bottom: 6vh;
     }
     
 
